@@ -6,13 +6,13 @@ const Tab1 = () => {
     <Box
       id="tab1"
       minH='100vh'
-      bg='grey'
+      bg='teal.100'
       display='flex'
       flexDirection='column'
       justifyContent='center'
       alignItems='center'
     >
-      <Text color='black' fontSize='4xl'>Cool content goes here</Text>
+      <Text color='black' fontSize='4xl'>Content goes here, But dont click on the Tabs!!</Text>
     </Box>
   );
 };

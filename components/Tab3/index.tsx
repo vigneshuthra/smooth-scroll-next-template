@@ -1,4 +1,4 @@
-import { Box, Text } from '@chakra-ui/react';
+import { Box, Img, Text } from '@chakra-ui/react';
 import React from 'react';
 
 const tab3 = () => {
@@ -6,13 +6,14 @@ const tab3 = () => {
     <Box
       id="tab3"
       minH='100vh'
-      bg='grey'
+      bg='orange.500'
       display='flex'
       flexDirection='column'
       justifyContent='center'
       alignItems='center'
     >
-      <Text color='black' fontSize='4xl'>Cool content goes here</Text>
+      <Img w="20%" borderRadius={10} src='https://media.giphy.com/media/w8eGPgmnM3XnjgZwFw/giphy.gif'></Img>
+      <Text color='black' fontSize='4xl'>You Clicked on the Tabs. </Text>
     </Box>
   );
 };
