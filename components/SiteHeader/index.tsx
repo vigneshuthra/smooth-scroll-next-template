@@ -20,11 +20,12 @@ const SiteHeader = () => {
         pr={{ base: 4, md: 10 }}
         pl={{ base: 4, md: 10 }}
         color="black"
+        bgColor="lightsteelblue	"
         >
         <Flex align="center" mr={2}>
           <Link activeClass="active" to="tab1" spy={true} smooth={true} duration={1000}>
             <Text as={'a'} cursor="pointer" _hover={{ color: 'teal' }}>
-              Your Logo
+              Logo
             </Text>
           </Link>
         </Flex>
