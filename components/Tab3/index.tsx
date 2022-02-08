@@ -13,7 +13,7 @@ const tab3 = () => {
       alignItems='center'
     >
       <Img w="20%" borderRadius={10} src='https://media.giphy.com/media/w8eGPgmnM3XnjgZwFw/giphy.gif'></Img>
-      <Text color='black' fontSize='4xl'>You Clicked on the Tabs. </Text>
+      <Text color='black' fontSize='4xl'>You did it again. </Text>
     </Box>
   );
 };
